@@ -1,0 +1,27 @@
+import RowNoSpacing from "src/components/RowNoSpacing";
+import { ThemeColor } from "src/constants";
+import Header from "src/pages/createNewQuote/components/NetworkForm/Header";
+import styled from "styled-components";
+
+export const Container = styled(RowNoSpacing)`
+  border-left: 1px solid ${ThemeColor.SILVER};
+`;
+
+export const HeaderWrapper = styled(Header)``;
+
+export const Description = styled.div`
+  font-size: 18px;
+  font-weight: normal;
+  color: #4b565e;
+  line-height: 20px;
+`;
+
+export const DescriptionLink = styled.a`
+  cursor: pointer;
+  margin-left: 4px;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+`;

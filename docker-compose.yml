@@ -1,0 +1,15 @@
+version: "3"
+
+networks:
+  novo-connection-network:
+    driver: bridge
+
+services:
+  novo-connection-frontend:
+    container_name: novo-connection-frontend
+    image: $CI_REGISTRY:$APP_ENV
+    ports:
+      - "5000:5000"
+    networks:
+      - novo-connection-network
+    restart: on-failure:10

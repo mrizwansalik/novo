@@ -1,0 +1,32 @@
+export interface IStopLossCarrier {
+  address: string;
+  blog: string;
+  carrier_type: string;
+  city: string;
+  country: string;
+  desc: string;
+  facebook: string;
+  fax: string;
+  filestack_picture: string;
+  id: string;
+  is_standard: boolean;
+  is_underwriter: boolean;
+  linkedin: string;
+  name: string;
+  non_square_picture_thumbnail_64: string;
+  non_square_picture_thumbnail_128: string;
+  non_square_picture_thumbnail_256: string;
+  non_square_picture_thumbnail_512: string;
+  phone: string;
+  picture: string;
+  picture_thumbnail_64: string;
+  picture_thumbnail_128: string;
+  picture_thumbnail_256: string;
+  picture_thumbnail_512: string;
+  postal: string;
+  region: string;
+  suite_number: string;
+  twitter: string;
+  website: string;
+  workers: any[];
+}

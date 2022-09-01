@@ -1,0 +1,518 @@
+[33mcommit ad8ea2893aa4c8e0c5c1652ba1a36a332d603a37[m[33m ([m[1;36mHEAD -> [m[1;32mdevelop[m[33m, [m[1;31morigin/develop[m[33m, [m[1;32mmaster[m[33m)[m
+Merge: 2644f15 b2f4588
+Author: kieutridang-4-work <46896684+kieutridang-4-work@users.noreply.github.com>
+Date:   Sun Nov 28 23:00:57 2021 +0700
+
+    Merge pull request #81 from Allay/feature/NB-243
+    
+    NB-243 | Stop Loss Carriers list
+
+[33mcommit b2f4588480baab38d3cc429229533451473febaf[m
+Author: Nguyen Le Phuong <phuong.nguyen@idealogic.com.vn>
+Date:   Fri Nov 26 16:27:20 2021 +0700
+
+    feat: nb-243 stop loss carriers
+
+[33mcommit 2644f1506e9b28c655772f1b9d3186b61dfab5c3[m
+Merge: 0cc5ff1 1251b47
+Author: kieutridang-4-work <46896684+kieutridang-4-work@users.noreply.github.com>
+Date:   Tue Nov 23 13:32:53 2021 +0700
+
+    Merge pull request #78 from Allay/feature/NB-156
+    
+    NB-156 | Dashboard program build step 6
+
+[33mcommit 1251b47ac074344685f1d4026a13ab1499f6a347[m
+Author: Nguyen Le Phuong <phuong.nguyen@idealogic.com.vn>
+Date:   Mon Nov 15 15:41:35 2021 +0700
+
+    feat: nb-156 UI & not disable view form & transparent dropdown
+
+[33mcommit 9af400fd4cb2a6c3f265f5aa15196c04e8a7cf7f[m
+Author: Nguyen Le Phuong <phuong.nguyen@idealogic.com.vn>
+Date:   Mon Nov 8 18:33:49 2021 +0700
+
+    feat: nb-156 Dashboard Program Build step 6
+
+[33mcommit 0cc5ff1892277c09eb73b70517b16ae115b8b4b7[m[33m ([m[1;31morigin/react_ui[m[33m)[m
+Merge: 108145c 0b2997e
+Author: kieutridang-4-work <46896684+kieutridang-4-work@users.noreply.github.com>
+Date:   Mon Nov 15 21:00:19 2021 +0700
+
+    Merge pull request #80 from Allay/feature/NB-240
+    
+    Feature/nb 240
+
+[33mcommit 0b2997e227973d570f467d1c85e8c53f1c72bfef[m
+Author: quanqo <dev3@elliottbaytech.com>
+Date:   Mon Nov 15 19:00:10 2021 +0700
+
+    feat: nb-240 fix select duplicate code
+
+[33mcommit 379876b3647e35b8bd421477fa95cd5f30a7f301[m
+Author: quanqo <dev3@elliottbaytech.com>
+Date:   Mon Nov 15 18:49:08 2021 +0700
+
+    feat: nb-240 optimize select industry code
+
+[33mcommit 108145c13892b9b8afc87180e5a0db9ba4d566c4[m
+Merge: 93c296c c661e3e
+Author: kieutridang-4-work <46896684+kieutridang-4-work@users.noreply.github.com>
+Date:   Thu Nov 11 10:08:31 2021 +0700
+
+    Merge pull request #79 from Allay/feature/nb-51
+    
+    NB-51 | Create a quote | Phase 6: Quote Dashboard
+
+[33mcommit c661e3ed0e331440fb5be3e37fecf577158feabf[m
+Author: Phong Vu <caophong.w@gmail.com>
+Date:   Tue Nov 9 22:31:20 2021 +0700
+
+    feat: nb-51 dashboard program build step 6
+
+[33mcommit 93c296c14c934af3baf21c9eac5300c1e9219841[m
+Merge: f2c5fce 344a0c2
+Author: kieutridang-4-work <46896684+kieutridang-4-work@users.noreply.github.com>
+Date:   Tue Nov 9 10:47:40 2021 +0700
+
+    Merge pull request #76 from Allay/feature/NB-239
+    
+    feat: nb-239 responsive ui for Claims data page
+
+[33mcommit f2c5fce4cc00d20c2fd57ec83bb5757f5e6f0c06[m
+Merge: 7bafadd 585c504
+Author: kieutridang-4-work <46896684+kieutridang-4-work@users.noreply.github.com>
+Date:   Tue Nov 9 10:26:55 2021 +0700
+
+    Merge pull request #77 from Allay/feature/nb-50
+    
+    NB-50 | onboarding program build step 8
+
+[33mcommit 585c504b2cf5fd41200bbbfb7ec62ddc052f0aa1[m
+Author: Phong Vu <dev2@elliottbaytech.com>
+Date:   Sun Nov 7 12:55:58 2021 +0700
+
+    feat: nb-50 finish form
+
+[33mcommit 344a0c205f66deeaf91a1a8a963a208d70bddd6e[m
+Author: quanqo <dev3@elliottbaytech.com>
+Date:   Fri Nov 5 19:39:59 2021 +0700
+
+    feat: nb-239 responsive ui for Claims data page
+
+[33mcommit 737f500fbc2560b4c62fc2ec067c83f573add2a9[m
+Author: Phong Vu <dev2@elliottbaytech.com>
+Date:   Fri Nov 5 01:37:11 2021 +0700
+
+    feat: nb-50 edit stop loss
+
+[33mcommit dce7ae8cf4a0677ad0f52e0f783069cc48330e9c[m
+Author: Phong Vu <dev2@elliottbaytech.com>
+Date:   Thu Nov 4 00:23:05 2021 +0700
+
+    feat: nb-59 handle submit form
+
+[33mcommit 7bafadd29b525b4b615dd148da3599656813c8d4[m
+Merge: 1d1792a 323a5a0
+Author: kieutridang-4-work <46896684+kieutridang-4-work@users.noreply.github.com>
+Date:   Wed Nov 3 12:00:13 2021 +0700
+
+    Merge pull request #75 from Allay/feature/NB-49
+    
+    NB-49 | Onboarding step 7 Expenses page
+
+[33mcommit 323a5a0fd3866302dbc487b78b8c96064efa8d1d[m
+Author: Nguyen Le Phuong <phuong.nguyen@idealogic.com.vn>
+Date:   Tue Nov 2 20:08:28 2021 +0700
+
+    feat: nb-49 add constants
+
+[33mcommit ca31d90d91286b76bd7ef1496c2a710512abc385[m
+Author: Nguyen Le Phuong <phuong.nguyen@idealogic.com.vn>
+Date:   Tue Nov 2 20:05:08 2021 +0700
+
+    feat: nb-49 responsive layout, fix step header
+
+[33mcommit 89edc0d8ecce1187baa88db230fba9ee77759317[m
+Author: Nguyen Le Phuong <phuong.nguyen@idealogic.com.vn>
+Date:   Mon Nov 1 20:38:45 2021 +0700
+
+    feat: nb-49 implement expenses page
+
+[33mcommit 2388da69cde9b9167fc2d4dbb51fc07395f4fc52[m
+Author: Nguyen Le Phuong <phuong.nguyen@idealogic.com.vn>
+Date:   Tue Oct 26 21:03:49 2021 +0700
+
+    feat: nb-49 initial routing and intergate sidebar
+
+[33mcommit 1d1792a0a15164821c31d63b81b4a114f5f65824[m
+Merge: 6191262 c50129c
+Author: kieutridang-4-work <46896684+kieutridang-4-work@users.noreply.github.com>
+Date:   Tue Nov 2 10:01:56 2021 +0700
+
+    Merge pull request #74 from Allay/feature/NB-127
+    
+    NB-127 | Dashboard | Health history (Claims history)
+
+[33mcommit c50129c54d93ed1ebab6dd64a1f817a9ff463598[m
+Author: quanqo <dev3@elliottbaytech.com>
+Date:   Thu Oct 28 17:22:30 2021 +0700
+
+    feat: nb-127 fix minor ui bugs and logic bugs
+
+[33mcommit 068ef14940bb352c2bbed1508c7a95df4b4b9613[m
+Author: quanqo <dev3@elliottbaytech.com>
+Date:   Wed Oct 27 10:03:26 2021 +0700
+
+    feat: nb-127 link between pages
+
+[33mcommit 3c4cb4d718fe83ddd788b90b29d2dc72ae5707d1[m
+Author: quanqo <dev3@elliottbaytech.com>
+Date:   Tue Oct 26 18:07:11 2021 +0700
+
+    feat: nb-185 integrate chart
+
+[33mcommit e6108d2460f2d23936ec1a600bef125c771cc043[m
+Author: quanqo <dev3@elliottbaytech.com>
+Date:   Thu Oct 21 13:24:03 2021 +0700
+
+    feat: nb-184 integrate large tab - table
+
+[33mcommit 991ceb25f54b686aaeef3c57970e7f806cb1e26c[m
+Author: quanqo <dev3@elliottbaytech.com>
+Date:   Thu Oct 21 11:36:50 2021 +0700
+
+    feat: nb-182 integrate monthly tab - table
+
+[33mcommit 7bdf7bec725c6182ce91ef57ba15ade94e09bfed[m
+Author: quanqo <dev3@elliottbaytech.com>
+Date:   Tue Oct 19 13:17:35 2021 +0700
+
+    feat: nb-180 integrate documents tab - document table
+
+[33mcommit 3d12692dfc84a23d959525cb87696359768133d7[m
+Author: quanqo <dev3@elliottbaytech.com>
+Date:   Mon Oct 18 10:33:31 2021 +0700
+
+    feat: nb-173 integrate edit claims modal
+
+[33mcommit 0eb072cca5872bb9a66e32ca88c46bcb18e7e72a[m
+Author: quanqo <dev3@elliottbaytech.com>
+Date:   Wed Oct 6 17:56:18 2021 +0700
+
+    feat: nb-179 ui for large tab - table and chart
+
+[33mcommit 1649d9aac35e423abdce1419ad0064f547ac8a39[m
+Author: quanqo <dev3@elliottbaytech.com>
+Date:   Mon Oct 4 18:53:35 2021 +0700
+
+    feat: nb-178 ui for monthly tab - chart
+
+[33mcommit da733a7df8286d3f3f8be138caa89b3d88515982[m
+Author: quanqo <dev3@elliottbaytech.com>
+Date:   Mon Oct 4 17:08:05 2021 +0700
+
+    feat: nb-175 ui for monthly tab - table
+
+[33mcommit 7ed74e1cd493a991c4365783e9e34a21e08b753f[m
+Author: quanqo <dev3@elliottbaytech.com>
+Date:   Wed Sep 22 17:59:11 2021 +0700
+
+    feat: nb-174 ui for document tab - document table
+
+[33mcommit 67b6e22c71be01078a65d71e23e9c2c77521692b[m
+Author: quanqo <dev3@elliottbaytech.com>
+Date:   Fri Sep 17 14:36:15 2021 +0700
+
+    feat: nb-172 ui for edit claims modal
+
+[33mcommit 61912625a4d467d492643cb8239febed09c1d216[m
+Merge: 57ef9e7 beacb12
+Author: kieutridang-4-work <46896684+kieutridang-4-work@users.noreply.github.com>
+Date:   Thu Oct 28 21:56:17 2021 +0700
+
+    Merge pull request #73 from Allay/feature/nb-50
+    
+    Feature/NB-50 program build step 8 UI
+
+[33mcommit beacb12ef78adb0dc04c9012a82160281097af0a[m
+Author: Phong Vu <dev2@elliottbaytech.com>
+Date:   Thu Oct 28 21:51:30 2021 +0700
+
+    feat: nb-50 fix render bug
+
+[33mcommit 66aa8741849b5e422146cee0083cf6fedd51a53c[m
+Author: Phong Vu <dev2@elliottbaytech.com>
+Date:   Thu Oct 28 21:51:30 2021 +0700
+
+    feat: nb-50 init defaul form data
+
+[33mcommit 263a6f1e2781267b5ca7038ed457f6110456a2cb[m
+Author: Phong Vu <dev2@elliottbaytech.com>
+Date:   Thu Oct 28 21:51:30 2021 +0700
+
+    feat nb-50 page UI
+
+[33mcommit 57ef9e7c746baed6cd64225204fe0a97da1848d5[m
+Merge: e253bd4 a13b2c0
+Author: kieutridang-4-work <46896684+kieutridang-4-work@users.noreply.github.com>
+Date:   Thu Oct 28 12:28:57 2021 +0700
+
+    Merge pull request #72 from Allay/feature/NB-216
+    
+    NB-216 | Implement plan design page
+
+[33mcommit a13b2c06dad10d3b00d5e9e7207e88110686bd8c[m
+Author: Nguyen Le Phuong <phuong.nguyen@idealogic.com.vn>
+Date:   Wed Oct 27 00:19:59 2021 +0700
+
+    feat: nb-216 blank page when select sha
+
+[33mcommit c6e9ac95857c5db1b151ae3d3e8af3942b55b720[m[33m ([m[1;31morigin/feature/NB-196[m[33m)[m
+Author: Nguyen Le Phuong <phuong.nguyen@idealogic.com.vn>
+Date:   Tue Oct 26 23:04:29 2021 +0700
+
+    feat: nb-216 fix select issue
+
+[33mcommit 3689020f217149e9998c4b11f56112f680d528d4[m
+Author: Nguyen Le Phuong <phuong.nguyen@idealogic.com.vn>
+Date:   Mon Oct 25 02:15:38 2021 +0700
+
+    feat: nb-216 integrate api
+
+[33mcommit a8f9a3261cd06344a79bf5dfd674fe5e5c9ddc8d[m
+Author: Nguyen Le Phuong <phuong.nguyen@idealogic.com.vn>
+Date:   Fri Oct 22 01:06:47 2021 +0700
+
+    feat: nb-216 add some logic and intergate api
+
+[33mcommit a7043a146f70353849a5f4566e4c66026b304a7a[m
+Author: Nguyen Le Phuong <phuong.nguyen@idealogic.com.vn>
+Date:   Thu Oct 21 01:44:30 2021 +0700
+
+    feat: nb-216 complete mapping field
+
+[33mcommit 18b899d1e0918ea77ec162d240f5acc9b937dd65[m
+Author: Nguyen Le Phuong <phuong.nguyen@idealogic.com.vn>
+Date:   Wed Oct 20 01:19:16 2021 +0700
+
+    feat: nb-196 mapping co-insurance
+
+[33mcommit e253bd41556bd3681eabc1c8f6c025e074afbeb7[m
+Merge: bb1b378 44b9646
+Author: kieutridang-4-work <46896684+kieutridang-4-work@users.noreply.github.com>
+Date:   Tue Oct 26 13:18:22 2021 +0700
+
+    Merge pull request #71 from Allay/feature/NB-154
+    
+    NB-154 | step 4 program build
+
+[33mcommit 44b96463dd10044fe334c758c8965bc629bc91e6[m
+Author: Phong Vu <dev2@elliottbaytech.com>
+Date:   Sun Oct 24 15:59:33 2021 +0700
+
+    feat: fixing bugs
+
+[33mcommit 564b943c92936bee5c68343d25eaaa41b751a096[m
+Author: Phong Vu <dev2@elliottbaytech.com>
+Date:   Thu Oct 21 00:44:53 2021 +0700
+
+    feat: nb-154 integrate tpaCard
+
+[33mcommit 27247ea35695ac2004cd91b46d6fe7d86f2924af[m
+Author: Phong Vu <dev2@elliottbaytech.com>
+Date:   Wed Oct 20 00:47:39 2021 +0700
+
+    feat: nb-154 remake data flow
+
+[33mcommit 37b661c66ab454507df844ade3848c1ed1e3a712[m
+Author: Phong Vu <dev2@elliottbaytech.com>
+Date:   Wed Oct 20 00:47:39 2021 +0700
+
+    feat: nb-154 step 4 program build
+
+[33mcommit 54ab724627eec044e525c696cf1c1dd68ccfc333[m
+Author: Phong Vu <dev2@elliottbaytech.com>
+Date:   Wed Oct 20 00:47:39 2021 +0700
+
+    feat: nb-196 fix rebase
+
+[33mcommit 0eb8cd030d3e46fdcb45f3308a054d89fdbb51dd[m
+Author: iamsuperdev1 <dev1@elliottbaytech.com>
+Date:   Wed Oct 20 00:47:39 2021 +0700
+
+    feat(196): implement create plan view
+
+[33mcommit bb1b3781a4fdf15ac52e7d8b0a0522e3d0fd2d31[m
+Merge: 9195e91 b2cc53c
+Author: kieutridang-4-work <46896684+kieutridang-4-work@users.noreply.github.com>
+Date:   Tue Oct 19 12:15:27 2021 +0700
+
+    Merge pull request #68 from Allay/feature/NB-155
+    
+    NB-155 | Dashboard program build step 5
+
+[33mcommit b2cc53c7bab57cd559116fa81964bf2fec556235[m
+Author: Phong Vu <dev2@elliottbaytech.com>
+Date:   Mon Oct 18 01:00:49 2021 +0700
+
+    feat: nb-155 fix redirect
+
+[33mcommit d954e8fd409ea0928e95321f8b2d16fd360801c2[m
+Author: Phong Vu <dev2@elliottbaytech.com>
+Date:   Mon Oct 18 00:21:52 2021 +0700
+
+    feat: nb-155 program dashboard step 5
+
+[33mcommit 9195e914c2223f7b1bcb51fa39f4a18c1e22e998[m
+Merge: b982894 0e0a9f5
+Author: kieutridang-4-work <46896684+kieutridang-4-work@users.noreply.github.com>
+Date:   Tue Oct 19 11:47:09 2021 +0700
+
+    Merge pull request #69 from Allay/feature/NB-212
+    
+    NB-48 | Onboarding program build step 5
+
+[33mcommit 0e0a9f55ebc3b547479e512e5ee51ddf5e23f0af[m
+Author: Phong Vu <dev2@elliottbaytech.com>
+Date:   Fri Oct 15 01:20:46 2021 +0700
+
+    nb-48 Integrate step 5
+
+[33mcommit a6b22517afda9cf8057f196a76a33e6f1fea60fa[m
+Author: Phong Vu <dev2@elliottbaytech.com>
+Date:   Thu Oct 14 01:16:20 2021 +0700
+
+    nb-48 | plan card
+
+[33mcommit 75b303c1baa69ec4817dedb93587471d3607c25d[m
+Author: Phong Vu <dev2@elliottbaytech.com>
+Date:   Tue Oct 12 00:56:51 2021 +0700
+
+    feature: nb-48 implement plan sets
+
+[33mcommit ff5fb2b9e77310db195e5ee71b76ab0428ecf90c[m
+Author: Phong Vu <dev2@elliottbaytech.com>
+Date:   Mon Oct 11 23:33:15 2021 +0700
+
+    nb-48 fix import bug
+
+[33mcommit c3a443564cdef63bf0bb3adc4a333b1954ba149f[m
+Author: Phong Vu <dev2@elliottbaytech.com>
+Date:   Mon Oct 11 23:20:42 2021 +0700
+
+    nb-48 | init plan detail form
+
+[33mcommit 3ebd09439919c5038e565944e45fec644dc1d3b4[m
+Author: Phong Vu <dev2@elliottbaytech.com>
+Date:   Sun Oct 10 22:42:53 2021 +0700
+
+    feat: nb-48 edit plan page UI
+
+[33mcommit 5d1a61401bfcedfe478b58ecd0a88d863cc1329b[m
+Author: Phong Vu <dev2@elliottbaytech.com>
+Date:   Sun Oct 10 16:42:36 2021 +0700
+
+    nb-48 | action card
+
+[33mcommit b64cb21adb5b48c7f9ea7af12633572b76f07496[m
+Author: Phong Vu <dev2@elliottbaytech.com>
+Date:   Sun Oct 10 03:27:39 2021 +0700
+
+    nb-48 tag section
+
+[33mcommit d3614a48441aaceb9fd210dbcc3c44122ff9367d[m
+Author: Phong Vu <dev2@elliottbaytech.com>
+Date:   Sat Oct 9 22:33:41 2021 +0700
+
+    feat: nb-48 page layout
+
+[33mcommit 0c7643c16230f546428265c99e26fe510c5f78ca[m
+Author: Phong Vu <dev2@elliottbaytech.com>
+Date:   Thu Oct 7 01:28:23 2021 +0700
+
+    feat: nb-48 fix routing problem
+
+[33mcommit d8c1cfdf16752521bbc46a32258d3d33fb78e952[m
+Author: Tri Nguyen <dev1@elliottbaytech.com>
+Date:   Tue Oct 5 18:24:12 2021 +0700
+
+    feat: nb-212 create basics sector
+
+[33mcommit 31a1a22c250fc547f5ba94eb2c07f64e38442473[m
+Author: Tri Nguyen <dev1@elliottbaytech.com>
+Date:   Tue Oct 5 16:52:48 2021 +0700
+
+    feat: nb-207 update ui logic for selected plans
+
+[33mcommit d696e6910dc56eaf0598924aba32b13535e164c4[m
+Author: Tri Nguyen <dev1@elliottbaytech.com>
+Date:   Wed Sep 29 20:30:47 2021 +0700
+
+    feat: nb-207 add UI for selected plans
+
+[33mcommit 015ed91d64f465b5e6c6dbfa739aabcde704bc63[m
+Author: Tri Nguyen <dev1@elliottbaytech.com>
+Date:   Mon Oct 11 23:22:04 2021 +0700
+
+    feat: nb-203 add option section
+
+[33mcommit 4ebfb0814b33532dc2b2b47bae0d0661923a013f[m
+Author: Tri Nguyen <dev1@elliottbaytech.com>
+Date:   Mon Oct 11 23:22:04 2021 +0700
+
+    feat: nb-195 build user interface for add plansets
+
+[33mcommit 415b411cbe0d60ac4bedbae27271a8b27f1b2dbf[m
+Author: Tri Nguyen <dev1@elliottbaytech.com>
+Date:   Mon Oct 11 23:22:04 2021 +0700
+
+    feat: nb-193 create plansets layout
+
+[33mcommit b982894a3ba836f519dd5f5c5d9e3584754f4bb7[m[33m ([m[1;33mtag: 2.4.0[m[33m)[m
+Merge: ab6986a 4160fb6
+Author: kieutridang-4-work <46896684+kieutridang-4-work@users.noreply.github.com>
+Date:   Sun Oct 10 14:04:34 2021 +0700
+
+    Merge pull request #64 from Allay/fix/NB-214
+    
+    #214: Fix - Bug brokerage team member page
+
+[33mcommit 4160fb68a2e5f8c27538b081129c6a576c93d7fc[m
+Author: iamsuperdev1 <dev1@elliottbaytech.com>
+Date:   Thu Oct 7 22:52:57 2021 +0700
+
+    fix(nb-214): fix code review
+
+[33mcommit a838dc35d01a5a6a8958d725a2e724a1d1ca54a7[m
+Author: iamsuperdev1 <dev1@elliottbaytech.com>
+Date:   Thu Oct 7 21:40:45 2021 +0700
+
+    fix(nb-214): fix missing orgid on url and wrong worker fetch
+
+[33mcommit ab6986acf30b388be9c34b4d7c341e499731e888[m
+Merge: 3d75668 d72b520
+Author: kieutridang-4-work <46896684+kieutridang-4-work@users.noreply.github.com>
+Date:   Sat Oct 9 21:58:45 2021 +0700
+
+    Merge pull request #66 from Allay/feature/NB-208
+    
+    Feature/nb 208
+
+[33mcommit d72b5206aab7ea1aeb018b6e5442f7e789438f7e[m[33m ([m[1;31morigin/feature/NB-208[m[33m)[m
+Author: Phong Vu <dev2@elliottbaytech.com>
+Date:   Wed Oct 6 21:42:06 2021 +0700
+
+    feat: nb-208 add todo
+
+[33mcommit f415e340d390d0a5775b285930e2a095530679d7[m
+Author: Phong Vu <dev2@elliottbaytech.com>
+Date:   Wed Oct 6 21:22:26 2021 +0700
+
+    feat: nb-208 subHeader
+
+[33mcommit 445b672a8f93daae93e23c2df0bb5c33f3e807a9[m
+Author: Phong Vu <dev2@elliottbaytech.com>
+Date:   Tue Oct 5 18:26:33 2021 +0700
+
+    feat: nb-208 god mode logic

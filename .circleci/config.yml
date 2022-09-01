@@ -1,0 +1,76 @@
+version: 2
+jobs:
+  testing:
+    docker:
+      - image: zymethyang/ubuntu
+    working_directory: ~/tmp
+    steps:
+      - checkout
+      - setup_remote_docker:
+          version: 19.03.13
+          docker_layer_caching: true
+      - run:
+          name: Show current branch
+          command: echo ${CIRCLE_BRANCH}
+      - run:
+          command: |-
+            echo "REACT_APP_API_URL=$DEVELOP_REACT_APP_API_URL" > ".env"
+            echo "REACT_APP_AWS_S3_ACCESS_KEY=$DEVELOP_REACT_APP_AWS_S3_ACCESS_KEY" >> ".env"
+            echo "REACT_APP_AWS_S3_ACCESS_KEY_ID=$DEVELOP_REACT_APP_AWS_S3_ACCESS_KEY_ID" >> ".env"
+            echo "REACT_APP_AWS_STORAGE_BUCKET_NAME=$DEVELOP_REACT_APP_AWS_STORAGE_BUCKET_NAME" >> ".env"
+            echo "REACT_APP_DATA_WIDGET_ID=$DEVELOP_REACT_APP_DATA_WIDGET_ID" >> ".env"
+            echo "REACT_APP_URL=$DEVELOP_REACT_APP_URL" >> ".env"
+            echo "ESLINT_NO_DEV_ERRORS=$ESLINT_NO_DEV_ERRORS" >> ".env"
+            echo "SKIP_PREFLIGHT_CHECK=$SKIP_PREFLIGHT_CHECK" >> ".env"
+          name: Append environment variable to source code.
+      - run:
+          command: |-
+            docker build -t $CI_REGISTRY:testing .
+          name: Build testing version
+
+  deploy-develop:
+    docker:
+      - image: zymethyang/ubuntu
+    working_directory: ~/tmp
+    steps:
+      - checkout
+      - setup_remote_docker:
+          version: 19.03.13
+          docker_layer_caching: true
+      - run:
+          command: |-
+            echo "REACT_APP_API_URL=$DEVELOP_REACT_APP_API_URL" > ".env"
+            echo "REACT_APP_AWS_S3_ACCESS_KEY=$DEVELOP_REACT_APP_AWS_S3_ACCESS_KEY" >> ".env"
+            echo "REACT_APP_AWS_S3_ACCESS_KEY_ID=$DEVELOP_REACT_APP_AWS_S3_ACCESS_KEY_ID" >> ".env"
+            echo "REACT_APP_AWS_STORAGE_BUCKET_NAME=$DEVELOP_REACT_APP_AWS_STORAGE_BUCKET_NAME" >> ".env"
+            echo "REACT_APP_DATA_WIDGET_ID=$DEVELOP_REACT_APP_DATA_WIDGET_ID" >> ".env"
+            echo "REACT_APP_URL=$DEVELOP_REACT_APP_URL" >> ".env"
+            echo "ESLINT_NO_DEV_ERRORS=$ESLINT_NO_DEV_ERRORS" >> ".env"
+            echo "SKIP_PREFLIGHT_CHECK=$SKIP_PREFLIGHT_CHECK" >> ".env"
+          name: Append environment variable to source code.
+      - run:
+          command: |-
+            export APP_ENV=develop
+            echo $CI_REGISTRY_PASSWORD | docker login -u $CI_REGISTRY_USER $CI_REGISTRY --password-stdin
+            docker build -t $CI_REGISTRY:$APP_ENV .
+            docker push $CI_REGISTRY:$APP_ENV
+            DOCKER_HOST=ssh://$REMOTE_DEV_SERVER docker-compose -f ./docker-compose.yml up -d --force-recreate --build
+          name: Deploy develop version
+workflows:
+  version: 2
+  test-deploy:
+    jobs:
+      - testing:
+          filters:
+            branches:
+              only: /.*/
+            tags:
+              only: /.*/
+      - deploy-develop:
+          requires:
+            - testing
+          filters:
+            branches:
+              only: /develop/
+            tags:
+              only: /dev-v.*/
